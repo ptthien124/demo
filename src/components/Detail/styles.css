@@ -1,0 +1,44 @@
+.detail {
+  max-width: 1440px;
+  margin: auto;
+  padding: 140px 40px 40px;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail h2 {
+  margin-top: 200px;
+}
+
+.wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px lightgray;
+  min-height: 678px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper h1 {
+  text-align: center;
+}
+
+.wrapper img {
+  height: 300px;
+}
+
+.wrapper strong {
+  font-size: 40px;
+}
+
+.wrapper p {
+  font-size: 20px;
+  text-align: justify;
+}

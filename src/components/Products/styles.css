@@ -1,0 +1,35 @@
+.products {
+  max-width: 1440px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 140px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  box-shadow: 0 4px 10px lightgray;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.product:hover {
+  box-shadow: 0 4px 20px gray;
+}
+
+.product h1 {
+  margin: 12px 0;
+}
+
+.loading {
+  align-self: center;
+  margin-top: 200px;
+}
