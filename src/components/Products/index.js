@@ -4,7 +4,6 @@ import "./styles.css";
 
 function Products() {
   const navigate = useNavigate();
-
   const [store, setStore] = useState([]);
   const [loading, setLoading] = useState(true);
 
